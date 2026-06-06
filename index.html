@@ -7,9 +7,9 @@
 
   <style>
 
-  .youtube {
-    text-align: center;
-    padding: 5px 20px 10px;
+.youtube {
+  text-align: center;
+  padding: 5px 20px 20px;
 }
 
   .youtube-button {
@@ -141,7 +141,7 @@
 
     .tagline {
       text-align: center;
-      padding: 10px 20px 20px;
+      padding: 10px 20px 5px;
     }
 
     #services {
@@ -160,14 +160,15 @@
       margin: 18px auto 30px;
     }
 
-    .buttons a {
-      display: inline-block;
-      margin: 10px;
-      padding: 15px;
-      border-radius: 999px;
-      font-weight: 800;
-      text-decoration: none;
-    }
+  .buttons a,
+  .youtube-button {
+    display: inline-block;
+    margin: 6px;
+    padding: 12px 24px;
+    border-radius: 999px;
+    font-weight: 800;
+    text-decoration: none;
+  }
 
     .primary {
       background: var(--orange);
@@ -313,17 +314,13 @@
       <div class="icon icon8">✏️</div>
     </div>
 
-    <section class="tagline">
-      <h1>Think. Don’t Memorize.</h1>
-      <p>
-        Middle school, high school, and college tutor for math, science, engineering, CAD, and more —
-        with a focus on understanding, confidence, and problem solving.
-      </p>
-
-      <div class="buttons">
-        <a class="primary" href="mailto:trinketsandtradables@gmail.com">Book a Session</a>
-      </div>
-    </section>
+<section class="tagline">
+  <h1>Think. Don’t Memorize.</h1>
+  <p>
+    Middle school, high school, and college tutor for math, science, engineering, CAD, and more —
+    with a focus on understanding, confidence, and problem solving.
+  </p>
+</section>
 
 <section id="services">
   <h2 class="section-title">Subjects I Help With</h2>
@@ -390,6 +387,10 @@
 </section>
 
 <section class="youtube">
+  <div class="buttons">
+    <a class="primary" href="mailto:trinketsandtradables@gmail.com">Book a Session</a>
+  </div>
+
   <a class="youtube-button"
      href="https://www.youtube.com/@the_jaker_tutor"
      target="_blank">
