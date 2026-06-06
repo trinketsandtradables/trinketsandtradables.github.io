@@ -1,11 +1,163 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>The Jaker</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Jaker | Math, Engineering & CAD Tutoring</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 24px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #334155;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: #cbd5e1;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+
+    .hero {
+      padding: 90px 8%;
+      max-width: 900px;
+    }
+
+    .hero h1 {
+      font-size: 56px;
+      line-height: 1.1;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 22px;
+      color: #cbd5e1;
+      max-width: 700px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 14px 24px;
+      background: #38bdf8;
+      color: #020617;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 60px 8%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 34px;
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 24px;
+      border-radius: 14px;
+      border: 1px solid #334155;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #38bdf8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      color: #94a3b8;
+      border-top: 1px solid #334155;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Jake “The Jaker” Whiteman</h1>
-  <p>I teach students how to think and learn.</p>
-  <p>Math • Engineering • CAD • Test Prep</p>
+  <header>
+    <div class="logo">THE JAKER</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Think. Don’t Memorize.</h1>
+      <p>
+        Math, engineering, CAD, and test prep tutoring from Jake “The Jaker” Whiteman —
+        a mechanical engineer who teaches students how to actually understand what they’re learning.
+      </p>
+      <a class="button" href="mailto:YOUR-EMAIL-HERE">Book a Session</a>
+    </section>
+
+    <section id="about">
+      <h2>About Jake</h2>
+      <p>
+        I’m a mechanical engineer with experience in aerospace, defense, CAD, and technical problem solving.
+        I help students break down confusing subjects into clear, understandable steps.
+      </p>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Math Tutoring</h3>
+          <p>Algebra, geometry, trigonometry, calculus, physics, and problem-solving skills.</p>
+        </div>
+
+        <div class="card">
+          <h3>Engineering Mentoring</h3>
+          <p>Mechanical engineering concepts, design thinking, technical projects, and career guidance.</p>
+        </div>
+
+        <div class="card">
+          <h3>CAD Training</h3>
+          <p>Introductory CAD help, 3D modeling, design basics, and engineering visualization.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Interested in tutoring or project help? Reach out below.
+      </p>
+      <a class="button" href="mailto:YOUR-EMAIL-HERE">Email Jake</a>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 The Jaker. Built by Jake Whiteman.
+  </footer>
 </body>
 </html>
