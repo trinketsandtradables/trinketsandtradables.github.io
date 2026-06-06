@@ -7,6 +7,39 @@
 
   <style>
 
+  .rates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  padding: 10px 20px 5px;
+  text-align: center;
+}
+
+.rate-price {
+  color: var(--orange);
+  font-size: 2.4rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.rate-label {
+  color: var(--muted);
+  font-size: 1rem;
+  margin-top: 8px;
+  font-weight: 700;
+}
+
+@media (max-width: 720px) {
+  .rates {
+    gap: 30px;
+  }
+
+  .rate-price {
+    font-size: 1.8rem;
+  }
+}  
+    
 .youtube {
   text-align: center;
   padding: 5px 20px 20px;
@@ -386,6 +419,18 @@
 
 </section>
 
+<section class="rates">
+  <div class="rate-box">
+    <div class="rate-price">$40/hr</div>
+    <div class="rate-label">First Session</div>
+  </div>
+
+  <div class="rate-box">
+    <div class="rate-price">$60/hr</div>
+    <div class="rate-label">Ongoing Tutoring</div>
+  </div>
+</section>
+    
 <section class="youtube">
   <div class="buttons">
     <a class="primary" href="mailto:trinketsandtradables@gmail.com">Book a Session</a>
